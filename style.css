@@ -1,0 +1,144 @@
+body {
+    font-family: "Nunito";
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: left;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    max-width: 500px;
+    width: 90%;
+    height: 80%;
+    max-width: 400;
+    max-height: 900;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.landing_logo_transparent {
+    width: 700px;
+    height: auto;
+    max-width: 100%;
+    margin-top: -175px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.headline {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #001148;
+    margin-top: 80px;
+    line-height: 1.4;
+    position: relative;
+    z-index: 2;
+}
+
+.subheadline {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.static-text {
+    white-space: nowrap;
+}
+
+#dynamicText {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.input-group {
+    position: relative;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    padding-right: 100px;
+}
+
+.input-group button {
+    position: absolute;
+    height: 75%;
+    right: 5px;
+    margin-top: 4.5px;
+    padding: 0 20px;
+    border: none;
+    background-color: #001148;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.input-group button:hover {
+    background-color: #0056b3;
+}
+
+.phones {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+.phone {
+    max-width: 90%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.google-form-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    /* Center the link */
+}
+
+.google-form-link button {
+    padding: 15px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    width: 40%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+    font-size: 16px;
+    outline: none;
+}
+
+.google-form-link button:hover {
+    background-color: #787a7c;
+}
