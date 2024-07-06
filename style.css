@@ -109,12 +109,12 @@ body {
 }
 
 .phone {
-    max-width: 75%;
+    max-width: 55%;
     height: auto;
     margin: 10px 0;
     border-radius: 5px;
     margin-left: 25px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .google-form-link {
