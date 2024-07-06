@@ -29,7 +29,7 @@ body {
     width: 700px;
     height: auto;
     max-width: 100%;
-    margin-top: -185px;
+    margin-top: -170px;
     display: block;
     position: absolute;
     left: 50%;
@@ -164,7 +164,5 @@ body {
         width: 100%;
     }
     
-    .landing_logo_transparent {
-        margin-top: 30px;
 }
 
