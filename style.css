@@ -163,5 +163,8 @@ body {
     .google-form-link button {
         width: 100%;
     }
+    
+    .headline {
+        margin-top: 30px;
 }
 
