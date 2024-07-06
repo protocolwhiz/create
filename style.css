@@ -29,7 +29,7 @@ body {
     width: 700px;
     height: auto;
     max-width: 100%;
-    margin-top: -125px;
+    margin-top: -135px;
     display: block;
     position: absolute;
     left: 50%;
@@ -109,7 +109,7 @@ body {
 }
 
 .phone {
-    max-width: 70%;
+    max-width: 65%;
     height: auto;
     margin: 10px 0;
     border-radius: 5px;
